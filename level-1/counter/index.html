@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A small interactive demo from the Still focus timer project."
+    />
+    <title>Counter / Still</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <nav class="container" aria-label="Main navigation">
+        <a class="brand" href="/level-1/landing/"
+          >Still<span aria-hidden="true">.</span></a
+        >
+        <div class="links">
+          <a href="/">All projects</a><a href="/level-1/landing/">Timer</a
+          ><a href="/level-1/form/">Form</a
+          ><a href="/level-1/counter/">Counter</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="container app">
+      <div class="app-head">
+        <h1>Counter</h1>
+        <p class="lead">
+          Keep a simple count. It starts at zero and cannot go below it.
+        </p>
+      </div>
+
+      <section class="panel" aria-label="Counter">
+        <p>Current count</p>
+        <output id="count" aria-live="polite">0</output>
+        <div class="button-row">
+          <button id="decrement" aria-label="Decrease count">−</button
+          ><button class="primary" id="increment" aria-label="Increase count">
+            +</button
+          ><button id="reset">Reset</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Still is a little space to focus.</p>
+        <a href="/">All projects</a>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

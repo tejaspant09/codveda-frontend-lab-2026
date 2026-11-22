@@ -1,0 +1,8 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/level-2/*"
+  to = "/level-2/index.html"
+  status = 200

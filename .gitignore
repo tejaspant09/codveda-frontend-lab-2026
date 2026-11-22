@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.tgz
+.env
+.env.*
+!.env.example
+.sites-local/
+.codex-preview/
+playwright-report/
+test-results/
+level-3/component-library/dist/
+*.log

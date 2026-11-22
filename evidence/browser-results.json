@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-22T13:30:40.672Z",
+  "origin": "http://127.0.0.1:4173",
+  "browser": "157.0.8103.79",
+  "checks": [
+    {
+      "name": "counter lower bound, increment, decrement and reset",
+      "status": "passed"
+    },
+    {
+      "name": "form errors, focus, live correction and honest demo confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "timer start, pause, break mode and reset",
+      "status": "passed"
+    },
+    {
+      "name": "reduced motion, no-script content and native links",
+      "status": "passed"
+    },
+    {
+      "name": "form cannot submit personal details when JavaScript is disabled",
+      "status": "passed"
+    },
+    {
+      "name": "normal-motion replay and scroll animation run and settle",
+      "status": "passed"
+    },
+    {
+      "name": "SPA real API search, favorites, client routing and direct reload",
+      "status": "passed"
+    },
+    {
+      "name": "Storybook serves an actual documented component",
+      "status": "passed"
+    }
+  ],
+  "pages": [
+    {
+      "name": "hub",
+      "width": 360,
+      "route": "/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "hub",
+      "width": 768,
+      "route": "/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "hub",
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "landing",
+      "width": 360,
+      "route": "/level-1/landing/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "landing",
+      "width": 768,
+      "route": "/level-1/landing/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "landing",
+      "width": 1440,
+      "route": "/level-1/landing/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "form",
+      "width": 360,
+      "route": "/level-1/form/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "form",
+      "width": 768,
+      "route": "/level-1/form/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "form",
+      "width": 1440,
+      "route": "/level-1/form/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "counter",
+      "width": 360,
+      "route": "/level-1/counter/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "counter",
+      "width": 768,
+      "route": "/level-1/counter/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "counter",
+      "width": 1440,
+      "route": "/level-1/counter/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "devfinder",
+      "width": 360,
+      "route": "/level-2/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "devfinder",
+      "width": 768,
+      "route": "/level-2/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "devfinder",
+      "width": 1440,
+      "route": "/level-2/",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    },
+    {
+      "name": "library-button",
+      "width": 1440,
+      "route": "/library/iframe.html",
+      "overflow": false,
+      "brokenImages": 0,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

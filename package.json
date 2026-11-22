@@ -1,0 +1,59 @@
+{
+  "name": "codveda-frontend-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "level-3/component-library"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:level1": "vite --config vite.level1.config.js",
+    "dev:level2": "vite --config vite.level2.config.js",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "vitest run",
+    "test:browser": "node scripts/browser-tests.mjs",
+    "storybook": "storybook dev -p 6006 --config-dir level-3/component-library/.storybook",
+    "build:storybook": "storybook build --config-dir level-3/component-library/.storybook --output-dir dist/library",
+    "build:library": "node level-3/component-library/build.mjs",
+    "test:package": "node scripts/package-smoke.mjs",
+    "audit:performance": "node scripts/performance.mjs",
+    "build:level2": "vite build --config vite.level2.config.js",
+    "record:demos": "node scripts/record-videos.mjs"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible-mono": "5.3.0",
+    "@fontsource/host-grotesk": "5.3.0",
+    "bootstrap": "5.3.9",
+    "gsap": "3.15.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "8.5.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@storybook/addon-a11y": "10.6.8",
+    "@storybook/addon-docs": "10.6.8",
+    "@storybook/react-vite": "10.6.8",
+    "@testing-library/jest-dom": "8.0.0",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.13",
+    "@vitejs/plugin-react": "6.3.0",
+    "esbuild": "0.28.2",
+    "jsdom": "31.0.1",
+    "lighthouse": "13.6.0",
+    "playwright": "1.65.1",
+    "storybook": "10.6.8",
+    "vite": "8.3.8",
+    "vitest": "5.1.1"
+  },
+  "overrides": {
+    "@joshwooding/vite-plugin-react-docgen-typescript": {
+      "glob": "14.0.2"
+    },
+    "glob": {
+      "minimatch": "11.0.1"
+    }
+  }
+}

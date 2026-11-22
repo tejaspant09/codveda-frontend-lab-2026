@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A small interactive demo from the Still focus timer project."
+    />
+    <title>Form validation / Still</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <nav class="container" aria-label="Main navigation">
+        <a class="brand" href="/level-1/landing/"
+          >Still<span aria-hidden="true">.</span></a
+        >
+        <div class="links">
+          <a href="/">All projects</a><a href="/level-1/landing/">Timer</a
+          ><a href="/level-1/form/">Form</a
+          ><a href="/level-1/counter/">Counter</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="container app">
+      <div class="app-head">
+        <h1>Form validation</h1>
+        <p class="lead">
+          Try the fields below to see feedback as you type. This is a demo;
+          nothing is sent.
+        </p>
+      </div>
+
+      <noscript
+        ><p>
+          This interactive demo needs JavaScript. Fields are disabled so nothing
+          can be submitted.
+        </p></noscript
+      >
+      <form novalidate>
+        <fieldset id="form-fields" disabled>
+          <legend class="visually-hidden">Registration details</legend>
+          <div class="field">
+            <label for="name">Name</label
+            ><input
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+              aria-describedby="name-help name-error"
+            />
+            <p id="name-help" class="help">Enter at least two characters.</p>
+            <p class="error" id="name-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              aria-describedby="email-error"
+            />
+            <p class="error" id="email-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone</label
+            ><input
+              id="phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              required
+              aria-describedby="phone-help phone-error"
+            />
+            <p id="phone-help" class="help">
+              Use 7 to 15 digits; spaces and + ( ) - are allowed.
+            </p>
+            <p class="error" id="phone-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label
+            ><input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="new-password"
+              required
+              aria-describedby="password-help password-strength password-error"
+            />
+            <p id="password-help" class="help">
+              Use at least 8 characters, including a letter and a number.
+            </p>
+            <p id="password-strength" class="help" aria-live="polite">
+              Strength: not entered
+            </p>
+            <p class="error" id="password-error"></p>
+          </div>
+          <button class="primary" type="submit">Check details</button>
+          <p id="result" role="status" aria-live="polite"></p>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Still is a little space to focus.</p>
+        <a href="/">All projects</a>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

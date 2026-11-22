@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-22T13:35:56.415Z",
+  "purpose": "captioned technical demonstrations; add your personal explanation before submission",
+  "recordings": [
+    {
+      "name": "level-1-demo",
+      "file": "videos/level-1-demo.webm",
+      "audio": "none",
+      "captions": "burned in",
+      "data": "actual app interactions; no mocked API results"
+    },
+    {
+      "name": "level-2-demo",
+      "file": "videos/level-2-demo.webm",
+      "audio": "none",
+      "captions": "burned in",
+      "data": "actual app interactions; no mocked API results"
+    },
+    {
+      "name": "level-3-demo",
+      "file": "videos/level-3-demo.webm",
+      "audio": "none",
+      "captions": "burned in",
+      "data": "actual app interactions; no mocked API results"
+    }
+  ]
+}
