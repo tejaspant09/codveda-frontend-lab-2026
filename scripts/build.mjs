@@ -22,6 +22,7 @@ await build({ configFile: "vite.hub.config.js" });
 await cp("docs", "dist/docs", { recursive: true });
 await cp("evidence", "dist/evidence", { recursive: true });
 await cp("shared", "dist/shared", { recursive: true });
+await cp("third-party", "dist/third-party", { recursive: true });
 await writeFile("dist/_redirects", "/level-2/* /level-2/index.html 200\n");
 await writeFile("dist/_headers", await readFile("hosting-headers.txt", "utf8"));
 console.log(

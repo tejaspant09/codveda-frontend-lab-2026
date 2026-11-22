@@ -1,10 +1,12 @@
-import { mkdir, rename, writeFile } from 'node:fs/promises';
+import { mkdir, rename, writeFile, readFile } from 'node:fs/promises';
 import { openBrowser } from './browser.mjs';
 
 const origin = process.env.BASE_URL || 'http://127.0.0.1:4173';
 await mkdir('evidence/videos', { recursive: true });
 const browser = await openBrowser();
-const records = [];
+const only = process.argv[2];
+const previous = await readFile('evidence/videos/index.json', 'utf8').then(JSON.parse).catch(() => ({ recordings: [] }));
+const records = only ? previous.recordings.filter((record) => record.name !== only) : [];
 
 async function caption(page, title, text) {
   await page.evaluate(({ title, text }) => {
@@ -27,6 +29,7 @@ async function caption(page, title, text) {
 const hold = (page, milliseconds = 2300) => page.waitForTimeout(milliseconds);
 
 async function record(name, steps) {
+  if (only && name !== only) return;
   const context = await browser.newContext({ viewport: { width: 1200, height: 800 }, reducedMotion: 'reduce',
     recordVideo: { dir: 'evidence/videos', size: { width: 1200, height: 800 } } });
   const page = await context.newPage();

@@ -1,6 +1,6 @@
 # Controlled performance case study
 
-Measured 2026-11-22T13:33:44.336Z.
+Measured 2026-11-22T13:45:01.894Z.
 
 ## Method
 
@@ -12,12 +12,12 @@ The baseline is an explicit unoptimized build variant generated from the same so
 
 | Metric | Baseline median | Optimized median |
 | --- | ---: | ---: |
-| Lighthouse performance score | 80 | 98 |
-| first-contentful-paint | 955 ms | 793 ms |
-| largest-contentful-paint | 955 ms | 793 ms |
-| speed-index | 2425 ms | 1187 ms |
-| total-blocking-time | 849 ms | 151 ms |
-| cumulative-layout-shift | 0.000 | 0.001 |
+| Lighthouse performance score | 92 | 93 |
+| first-contentful-paint | 888 ms | 806 ms |
+| largest-contentful-paint | 888 ms | 806 ms |
+| speed-index | 1413 ms | 1270 ms |
+| total-blocking-time | 360 ms | 312 ms |
+| cumulative-layout-shift | 0.001 | 0.001 |
 
 The real timer screenshot changed from 63,332 bytes (PNG) to 23,290 bytes (WebP), a 63.2% asset-size reduction. This byte reduction is independent of any noisy score change.
 

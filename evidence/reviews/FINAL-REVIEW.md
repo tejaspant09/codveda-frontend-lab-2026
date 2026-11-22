@@ -41,3 +41,7 @@ Task verdicts:
 These are local implementation verdicts, not proof of Codveda permission for AI assistance, personal intern authorship, publication, submission or certification eligibility.
 
 Preserve the clear amber action / blue reading distinction, the working timer at hero scale, and the honest demo disclosures.
+
+## Integration addendum (not an additional independent review)
+
+After the reviewer settlement, the integration session completed the four-size hero correction and repeated all eight browser checks on the final UI with zero errors. The final performance report records medians 92 and 93 with overlapping scores; image size fell by 63.2%. No production or real-user speed claim follows from those local measurements. See HERO-REVIEW.md and VERIFICATION.md for subsequent evidence.

@@ -1,0 +1,34 @@
+[
+ {
+  "shape": "Workbench",
+  "theme": "Console",
+  "axes": "dark/grotesk-sans/chromatic-amber",
+  "hero": "Counter",
+  "nav": "edge aligned",
+  "footer": "letter close",
+  "imagery": "actual product screenshot and live DOM timer",
+  "entry": "level-1/landing/index.html",
+  "fingerprint": [
+   "workbench",
+   "counter",
+   "edge nav",
+   "feature rows",
+   "product preview",
+   "letter close"
+  ],
+  "sections": [
+   "live timer hero",
+   "feature rows",
+   "actual product preview",
+   "FAQ",
+   "footer"
+  ],
+  "signature": "a live focus timer at graphic scale",
+  "waived": [],
+  "prompt": "Nine frontend internship learning exercises",
+  "hero_review": "post-draft Terra review, two findings resolved, ship",
+  "finish_review": "Sol bounded review, label finding resolved, ship",
+  "date": "2026-11-22",
+  "mode": "build"
+ }
+]

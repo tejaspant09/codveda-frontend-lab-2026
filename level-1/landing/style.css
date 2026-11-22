@@ -259,6 +259,29 @@ button:disabled {
   justify-self: start;
 }
 
+@media (max-width: 40rem) {
+  .hero {
+    padding-block: var(--space-lg);
+    row-gap: var(--space-lg);
+  }
+  .intro {
+    gap: var(--space-md);
+  }
+  .intro a {
+    margin-top: 0;
+  }
+  .mode-row button {
+    padding-inline: var(--space-sm);
+    font-size: var(--text-sm);
+  }
+  .timer-label {
+    margin-top: var(--space-lg);
+  }
+  .status {
+    margin-bottom: var(--space-lg);
+  }
+}
+
 button:active:enabled {
   transform: translateY(1px);
 }

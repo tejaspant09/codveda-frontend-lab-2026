@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-22T08:19:40.457Z",
+  "date": "2026-11-22T13:40:31.137Z",
   "status": "passed",
   "package": "@tejaspant09/still-ui",
   "version": "0.1.0",
   "archive": "package/tejaspant09-still-ui-0.1.0.tgz",
-  "integrity": "sha512-5vD1I1GhR08O71hgVihnotwbciCUagf4Rlr/2pmc3R06kqMdef5i3uofmSJ6hT3jpUbyQCZP1DTlPtjDLkZ+SA==",
+  "integrity": "sha512-bmBVqnLOMSS8iQFSNB+Vp5WB31g+ezyfALGz+nTYb9JFtOY6TRJ72h6IRvjwsWoMGhWNYEVQllyBj9m/bnTu/A==",
   "packedFiles": [
     "LICENSE",
     "README.md",
