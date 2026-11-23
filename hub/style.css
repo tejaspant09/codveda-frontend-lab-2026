@@ -125,6 +125,15 @@ a:hover { color: #275d48; }
 .repositories > div { display: flex; flex-wrap: wrap; gap: 12px; }
 .repositories a { display: inline-flex; align-items: center; min-height: 44px; border: 1px solid var(--color-rule); padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none; }
 .repositories a:hover { border-color: #275d48; }
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 10vw; padding-bottom: 120px; }
+.contact h2 { font-size: clamp(3rem, 5vw, 5.5rem); letter-spacing: -.07em; margin: 24px 0; }
+.contact > div > p:last-child { font-size: 18px; color: var(--color-ink-2); max-width: 40ch; }
+.contact-links { align-self: center; }
+.contact-links a { display: flex; flex-direction: column; gap: 6px; justify-content: center; min-height: 82px; border-top: 1px solid var(--color-rule); text-decoration: none; transition: padding .25s, color .25s; }
+.contact-links a:last-child { border-bottom: 1px solid var(--color-rule); }
+.contact-links a:hover { padding-left: 12px; }
+.contact-links span { font-size: 18px; font-weight: 600; }
+.contact-links small { font-size: 14px; color: var(--color-muted); }
 footer { border-top: 1px solid var(--color-rule); padding-top: 28px; padding-bottom: 36px; display: flex; justify-content: space-between; gap: 24px; align-items: end; }
 footer p { font-weight: 700; line-height: 1.35; }
 footer p span { font-size: 14px; color: var(--color-muted); font-weight: 400; }
@@ -164,6 +173,8 @@ footer a { font-size: 14px; font-weight: 600; }
   .process-links { margin-top: 50px; }
   .repositories { display: block; padding-bottom: 70px; }
   .repositories > div { margin-top: 20px; }
+  .contact { display: block; padding-bottom: 90px; }
+  .contact-links { margin-top: 40px; }
 }
 @media (max-width: 480px) {
   .brand { font-size: 13px; }
