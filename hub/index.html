@@ -3,115 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A frontend learning lab: try vanilla JavaScript demos, search GitHub developers, and explore accessible React components."
-    />
-    <title>Frontend Lab / projects you can explore</title>
+    <meta name="theme-color" content="#f3f5ef" />
+    <meta name="description" content="Tejas Pant's Codveda front-end lab: nine working exercises across vanilla JavaScript, React, and reusable UI components." />
+    <title>Tejas Pant — Front-end lab</title>
     <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./main.js"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <header class="container">
-      <a class="wordmark" href="/" aria-label="Frontend Lab home"
-        >Frontend Lab<span aria-hidden="true"> /</span></a
-      >
-      <nav aria-label="Main navigation">
-        <a href="#projects">Projects</a
-        ><a href="/docs/LEARNING-GUIDE.md">Learning guide</a>
-      </nav>
+    <div class="progress" aria-hidden="true"></div>
+    <header class="site-header container">
+      <a class="brand" href="/" aria-label="Tejas Pant, front-end lab home"><span class="brand-mark" aria-hidden="true">T<span>.</span></span><span>Tejas Pant<br /><small>Front-end lab</small></span></a>
+      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#process">Behind the work</a><a href="/docs/LEARNING-GUIDE.md">Learning guide</a></nav>
     </header>
     <main id="main">
-      <section class="intro container" aria-labelledby="page-title">
-        <h1 id="page-title">Small projects.<br />Real foundations.</h1>
-        <div class="intro-copy">
-          <p class="lead">
-            Explore frontend fundamentals through working demos and documented
-            decisions.
-          </p>
-          <a class="button" href="#projects">Explore the lab</a>
+      <section class="hero container" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Codveda internship / November 2026</p>
+          <h1 id="page-title">What happens <em>after</em> the first click?</h1>
+          <p class="hero-lead">A working record of nine front-end exercises: a timer built with JavaScript, a React search for GitHub people, and a small component library. Open them. Try the edges.</p>
+          <a class="hero-link" href="#projects">Explore the projects <span class="link-icon" aria-hidden="true">✳</span></a>
         </div>
-      </section>
-      <section
-        class="container projects"
-        id="projects"
-        aria-labelledby="projects-title"
-      >
-        <h2 class="visually-hidden" id="projects-title">
-          Explore the projects
-        </h2>
-        <article class="project project-still">
-          <div class="project-title">
-            <h3>Still</h3>
-            <p>Vanilla JavaScript</p>
-          </div>
-          <div class="timer-sample" aria-hidden="true">
-            <span>Focus session</span><b>25:00</b>
-            <div class="sample-rule"></div>
-          </div>
-          <p>A quiet focus timer, an interactive form, and a counter.</p>
-          <div class="project-links">
-            <a href="/level-1/landing/">Open timer</a
-            ><a href="/level-1/form/">Try form</a
-            ><a href="/level-1/counter/">Try counter</a>
-          </div>
-        </article>
-        <article class="project project-finder">
-          <div class="project-title">
-            <h3>DevFinder</h3>
-            <p>React and Bootstrap</p>
-          </div>
-          <div class="finder-sample" aria-hidden="true">
-            <span>Find your next collaborator</span>
-            <div>
-              Search GitHub developers<span class="search-symbol">⌕</span>
-            </div>
-            <p>Live search. Saved people. Shared state.</p>
-          </div>
-          <p>Find public GitHub profiles and keep a personal shortlist.</p>
-          <div class="project-links">
-            <a href="/level-2/">Open directory</a
-            ><a href="/level-2/about">How it works</a>
-          </div>
-        </article>
-        <article class="project project-ui">
-          <div class="project-title">
-            <h3>Still UI</h3>
-            <p>React component library</p>
-          </div>
-          <div class="ui-sample" aria-hidden="true">
-            <span class="sample-button">Continue</span>
-            <div class="sample-field">A little room for your ideas</div>
-            <p>Button / TextField / Card / Alert</p>
-          </div>
-          <p>
-            Four native-first components with documented states and accessible
-            labels.
-          </p>
-          <div class="project-links">
-            <a href="/library/">Explore Storybook</a>
-          </div>
-        </article>
-      </section>
-      <section class="container evidence" aria-labelledby="evidence-title">
-        <div>
-          <h2 id="evidence-title">Look under the surface.</h2>
-          <p>
-            Inspect the requirements, verification, and measured optimization
-            work.
-          </p>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="stage-orbit stage-orbit-one"></div><div class="stage-orbit stage-orbit-two"></div>
+          <div class="stage-cross stage-cross-one">+</div><div class="stage-cross stage-cross-two">+</div>
+          <div class="stage-note">BUILD / TEST / REPEAT</div>
+          <div class="stage-window"><div class="stage-bar"><span></span><span></span><span></span><b>still / focus</b></div><div class="stage-content"><small>FOCUS SESSION</small><strong>25<span>:</span>00</strong><div class="stage-timeline"><i></i></div><p>Make room for focus.</p></div></div>
+          <div class="stage-chip">01 <span>→</span> 09<br /><small>FROM FIRST CLICK TO FINISH</small></div>
         </div>
-        <div class="evidence-links">
-          <a href="/docs/TASK-MATRIX.md">Task requirements</a
-          ><a href="/evidence/VERIFICATION.md">Verification record</a
-          ><a href="/evidence/performance/REPORT.md">Performance case study</a
-          ><a href="/docs/SUBMISSION-CHECKLIST.md">Submission checklist</a>
-        </div>
+        <div class="hero-foot"><span>HTML / CSS / JAVASCRIPT / REACT</span><span>Scroll to inspect the work ↓</span></div>
       </section>
+      <section class="work" id="projects" aria-labelledby="projects-title">
+        <div class="section-intro container" data-reveal><p class="eyebrow">01 / The projects</p><h2 id="projects-title">Three levels.<br />Nine things to try.</h2><p>Each level has its own source repository. Every task below has a live entry point.</p></div>
+        <article class="work-row" data-reveal><div class="work-text"><p class="work-meta"><span>Level 01 / Basic</span><span>HTML · CSS · JS</span></p><h3>Still</h3><p>A responsive landing page that grows into a focus timer. A form that explains its errors. A counter that knows when to stop.</p><div class="work-links"><a href="/level-1/landing/">Landing & timer</a><a href="/level-1/form/">Interactive form</a><a href="/level-1/counter/">Counter</a></div></div><div class="work-preview preview-still" aria-hidden="true"><div class="preview-label">01 / VANILLA JAVASCRIPT</div><div class="preview-timer"><span>FOCUS SESSION</span><strong>25:00</strong><div class="preview-timer-track"><i></i></div><small>READY WHEN YOU ARE.</small></div><div class="preview-corner">✳</div></div></article>
+        <article class="work-row" data-reveal><div class="work-text"><p class="work-meta"><span>Level 02 / Intermediate</span><span>REACT · BOOTSTRAP · API</span></p><h3>DevFinder</h3><p>Search GitHub’s public users, inspect real profiles, and save a shortlist in this browser. Home, About, and Contact share one React app.</p><div class="work-links"><a href="/level-2/">Open directory</a><a href="/level-2/about">About</a><a href="/level-2/contact">Contact</a></div></div><div class="work-preview preview-finder" aria-hidden="true"><div class="preview-label">02 / REACT + REST API</div><div class="preview-search"><span>Search GitHub users</span><b>⌕</b></div><div class="preview-person"><i>TP</i><span><b>Search a real profile</b><small>Live results from GitHub</small></span><span class="preview-save">SAVE</span></div><div class="preview-person second"><i>GH</i><span><b>Keep your shortlist</b><small>Saved in your browser</small></span><span class="preview-save">SAVED</span></div></div></article>
+        <article class="work-row" data-reveal><div class="work-text"><p class="work-meta"><span>Level 03 / Advanced</span><span>STORYBOOK · GSAP · PERFORMANCE</span></p><h3>Still UI</h3><p>Four documented React components, an animation study, and a measured performance pass. The component states are open for inspection.</p><div class="work-links"><a href="/library/">Component stories</a><a href="/evidence/performance/REPORT.md">Performance notes</a></div></div><div class="work-preview preview-ui" aria-hidden="true"><div class="preview-label">03 / REUSABLE COMPONENTS</div><div class="preview-ui-card"><div class="preview-ui-top"><span class="preview-ui-dot"></span><span>Still UI / Card</span></div><strong>Make space for an idea.</strong><div class="preview-ui-field">Your next project</div><div class="preview-ui-bottom"><span>All changes saved locally</span><b>Continue</b></div></div></div></article>
+      </section>
+      <section class="process container" id="process" aria-labelledby="process-title" data-reveal><div><p class="eyebrow">02 / Behind the work</p><h2 id="process-title">The source is part of the story.</h2><p>See the task mapping, checks, and before-and-after performance evidence. The demos are small enough to inspect and explain.</p></div><div class="process-links"><a href="/docs/TASK-MATRIX.md"><span>Task-by-task requirements</span><b>+</b></a><a href="/evidence/VERIFICATION.md"><span>Verification record</span><b>+</b></a><a href="/evidence/performance/REPORT.md"><span>Performance case study</span><b>+</b></a><a href="/docs/SUBMISSION-CHECKLIST.md"><span>Submission checklist</span><b>+</b></a></div></section>
+      <section class="repositories container" aria-label="Source repositories"><p class="eyebrow">Read the code</p><div><a href="https://github.com/tejaspant09/codveda-level-1-basic">Level 1 source</a><a href="https://github.com/tejaspant09/codveda-level-2-intermediate">Level 2 source</a><a href="https://github.com/tejaspant09/codveda-level-3-advanced">Level 3 source</a></div></section>
     </main>
-    <footer class="container">
-      <p>Built to learn. Ready to explain.</p>
-      <span>Codveda frontend internship projects</span>
-    </footer>
+    <footer class="container"><p>Built by Tejas Pant<br /><span>For the Codveda front-end internship.</span></p><a href="#main">Back to top</a></footer>
   </body>
 </html>

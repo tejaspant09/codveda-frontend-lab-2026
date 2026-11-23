@@ -38,3 +38,11 @@ Hosting starts owner-private. Verify evaluator access before submitting a live l
 ## Final integration updates
 
 The post-draft hero review found the phone primary action below the first screen. Compact mobile spacing and mode controls corrected it; the revised headline states the default 25-minute interval. Four first-screen captures at 375x812, 1280x800, 1440x900 and 1920x1080 received a ship settlement. Performance was remeasured on this corrected build. The initial public GitHub CI run succeeded; see github-ci.json for its exact commit.
+
+## Recheck on 23 November 2026
+
+The full unit suite passed again (21/21), the production build succeeded, and a fresh package smoke test rendered all four components in a clean consumer app with the standalone CSS resolved. A new local browser run passed all eight behavioral checks and 16 viewport/accessibility scans (360, 768 and 1440 pixels for the hub and four demos, plus the Storybook button preview): zero horizontal overflow, broken images, detected WCAG A/AA issues or page runtime errors. Live GitHub search was exercised during the browser run. These results verify the local build at this date; they do not verify the private hosted preview or registry publication.
+
+## Homepage visual revision
+
+The project index now uses distinct previews and task-specific copy for each level, with direct links to all three source repositories. GSAP runs the homepage entrance, scroll reveals and reading-progress animation when motion is allowed. The static HTML stays visible without JavaScript; reduced-motion mode disables decorative animation. The revised homepage was inspected at 360, 768 and 1440 pixels with no horizontal overflow; the 768-pixel heading wrap was corrected. A normal-motion browser check reached both the hero and the final section without runtime errors.
