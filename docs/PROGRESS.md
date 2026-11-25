@@ -11,7 +11,7 @@ Source repository: https://github.com/tejaspant09/codveda-frontend-lab-2026 (see
 1. Run the complete lab: npm ci, npm test, npm run build, npm run preview.
 2. Read docs/LEARNING-GUIDE.md and make one independent change per task; fill docs/ORIGINALITY.md with actual activity.
 3. Send the clarification draft yourself and retain Codveda's answer.
-4. Sign in to npm, select an owned scope, publish the package, and test a clean registry install. Do not claim it is already published.
+4. Published @tejaspant/still-ui 0.1.0 and verified a clean registry installation on 25 November 2026.
 5. Review the three captioned technical demos and record your own explanation. Review the LinkedIn drafts before posting.
 6. Verify evaluator access, required portal fields and deadlines, then save a submission receipt.
 

@@ -4,7 +4,7 @@
 
 Implementation: component-library/. Four named exports (Button, TextField, Card, Alert), standalone CSS, native attributes and ref forwarding, stable field IDs, hint/error descriptions, documented Storybook states. Tests: tests/library.test.jsx. Build: `npm run build:library`; docs: `npm run build:storybook`; clean archive installation: `npm run test:package`.
 
-The component-library implementation follows the task title and objectives. The PDF's longer description conflicts with them, so a separate supplemental Django authentication demo is in django-auth-demo/. This covers both interpretations without claiming Codveda approved either one. Ask Codveda which version they expect before submission. The archive installation check is not a claim of npm publication; registry publication remains pending.
+The component-library implementation follows the task title and objectives. The PDF's longer description conflicts with them, so a separate supplemental Django authentication demo is in django-auth-demo/. This covers both interpretations without claiming Codveda approved either one. Ask Codveda which version they expect before submission. Published package: [@tejaspant/still-ui](https://www.npmjs.com/package/@tejaspant/still-ui), version 0.1.0; clean registry installation verified.
 
 ## Task 2: Performance Optimization
 
@@ -20,4 +20,4 @@ Behavior evidence: evidence/browser-results.json, normal-motion and reduced-moti
 
 ## Your demonstration
 
-Follow docs/LEARNING-GUIDE.md and docs/VIDEO-SCRIPTS.md. Captioned technical recordings are provided separately from a personal narrated explanation. Record the specific component or animation you changed and explain its behavior. Do not claim the learning exercise, npm publication, or employer approval until it has happened.
+Follow docs/LEARNING-GUIDE.md and docs/VIDEO-SCRIPTS.md. Captioned technical recordings are provided separately from a personal narrated explanation. Record the specific component or animation you changed and explain its behavior. Describe your personal learning honestly and do not claim employer approval until it has happened.

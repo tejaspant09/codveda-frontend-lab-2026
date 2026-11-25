@@ -55,7 +55,7 @@ Level 3 Task 1 has conflicting descriptions in the source PDF. The React compone
 
 Netlify configuration is included, with a fallback for /level-2 client routes. Sites hosting metadata is maintained separately in .openai/hosting.json. Site deployments start private unless sharing is explicitly changed. Do not submit an owner-only URL to evaluators without checking their access.
 
-The npm package scope is a placeholder based on the connected GitHub login, **not verified npm ownership**. Sign in, choose a scope you own, and follow the library README before publishing. The local package installation test does not prove registry publication.
+The component library is published as [`@tejaspant/still-ui` version 0.1.0](https://www.npmjs.com/package/@tejaspant/still-ui). A clean registry installation and component import were verified on 25 November 2026.
 
 ## Learning and handoff
 

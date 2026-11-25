@@ -26,8 +26,8 @@
 
 - [ ] Storybook and component package source linked.
 - [ ] If required, include supplemental Django demo source and its local test record; it is not deployed on the static Sites preview.
-- [ ] npm account/scope verified and package actually published; record registry URL.
-- [ ] Clean registry installation tested after publication (local tarball smoke is separate).
+- [x] npm package published: https://www.npmjs.com/package/@tejaspant/still-ui (version 0.1.0).
+- [x] Clean registry installation, import and Button rendering checked after publication.
 - [ ] Performance report/raw measurements included; baseline method disclosed.
 - [ ] Animations work with reduced motion and keyboard use.
 

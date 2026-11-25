@@ -31,7 +31,7 @@ Lighthouse measures a controlled unoptimized variant of this same project, not a
 
 ## External and personal actions still required
 
-npm registry publication is pending sign-in and verified scope ownership. The locally packed installation is not publication. Codveda has not confirmed AI assistance, shared-project format, or the component-library interpretation of the conflicting advanced description. The submission portal URL has not been supplied. Personal learning/change records remain intentionally blank. LinkedIn drafts are unsent, and technical recordings should be accompanied by the intern's own explanation.
+On 25 November 2026, @tejaspant/still-ui version 0.1.0 was published and verified with a clean registry installation, imports, Button rendering, and stylesheet resolution. Codveda has not confirmed AI assistance, shared-project format, or the component-library interpretation of the conflicting advanced description. The submission portal URL has not been supplied. Personal learning/change records remain intentionally blank. LinkedIn drafts are unsent, and technical recordings should be accompanied by the intern's own explanation.
 
 Hosting starts owner-private. Verify evaluator access before submitting a live link. Deployment and GitHub receipts, when available, are recorded separately; a successful local build alone does not prove either publication.
 
