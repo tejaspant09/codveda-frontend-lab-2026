@@ -49,6 +49,8 @@ The supplied guidelines prohibit copied or duplicated work; they do not explicit
 
 No real accounts are created by the form demos. No passwords are persisted or transmitted. DevFinder requests public GitHub data without a token; shared IP-based rate limits can affect it.
 
+Level 3 Task 1 has conflicting descriptions in the source PDF. The React component library matches the title/objectives; a separate local Django authentication demo covers the conflicting longer description at level-3/django-auth-demo/. Codveda has not confirmed which interpretation to submit. This Django project is not served by the static website preview and is not configured as a production account service.
+
 ## Publishing
 
 Netlify configuration is included, with a fallback for /level-2 client routes. Sites hosting metadata is maintained separately in .openai/hosting.json. Site deployments start private unless sharing is explicitly changed. Do not submit an owner-only URL to evaluators without checking their access.

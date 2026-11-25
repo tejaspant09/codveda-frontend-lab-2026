@@ -4,7 +4,7 @@ Hello Codveda team,
 
 I am preparing my frontend internship tasks for the 21 November–21 December period and would like to clarify three points before submission:
 
-1. Level 3 Task 1 is titled "Custom Component Library" with reusable components, Storybook, accessibility, and npm publication objectives. Its description instead mentions a Django application with authentication. Which requirement should I follow?
+1. Level 3 Task 1 is titled "Custom Component Library" with reusable components, Storybook, accessibility, and npm publication objectives. Its longer description instead mentions a Django application with authentication. I prepared both as separate, clearly labeled projects. Which one should be the primary submission, or do you expect both?
 2. Is AI assistance allowed for scaffolding, explanations, debugging, and code review if I understand, personally modify, test, and disclose the assistance? I want to comply with the originality policy.
 3. May related tasks share one application if each has a separate requirements/evidence record, and may I prepare all work early while submitting within the official portal window?
 

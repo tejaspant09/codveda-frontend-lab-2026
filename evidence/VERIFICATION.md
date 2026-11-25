@@ -43,6 +43,10 @@ The post-draft hero review found the phone primary action below the first screen
 
 The full unit suite passed again (21/21), the production build succeeded, and a fresh package smoke test rendered all four components in a clean consumer app with the standalone CSS resolved. A new local browser run passed all eight behavioral checks and 16 viewport/accessibility scans (360, 768 and 1440 pixels for the hub and four demos, plus the Storybook button preview): zero horizontal overflow, broken images, detected WCAG A/AA issues or page runtime errors. Live GitHub search was exercised during the browser run. These results verify the local build at this date; they do not verify the private hosted preview or registry publication.
 
+## Level 3 Task 1 conflict coverage (25 November 2026)
+
+The React component library remains the title/objectives interpretation. A separate local Django authentication app was added for the conflicting longer description. It uses Django's built-in user/auth forms and views, password validators and hashing, CSRF-protected POST forms, session authentication, login-protected dashboard, POST-only logout, and the built-in password-reset flow. Eight Django tests and the normal system check passed. A production-mode deployment check reported only that HSTS preload is not enabled; no production domain is configured. The Django app is not part of the static-site deployment. Codveda still needs to confirm which interpretation to submit.
+
 ## Homepage visual revision
 
 The project index now uses distinct previews and task-specific copy for each level, with direct links to all three source repositories. GSAP runs the homepage entrance, scroll reveals and reading-progress animation when motion is allowed. The static HTML stays visible without JavaScript; reduced-motion mode disables decorative animation. The revised homepage was inspected at 360, 768 and 1440 pixels with no horizontal overflow; the 768-pixel heading wrap was corrected. A normal-motion browser check reached both the hero and the final section without runtime errors.

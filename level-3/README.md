@@ -4,7 +4,7 @@
 
 Implementation: component-library/. Four named exports (Button, TextField, Card, Alert), standalone CSS, native attributes and ref forwarding, stable field IDs, hint/error descriptions, documented Storybook states. Tests: tests/library.test.jsx. Build: `npm run build:library`; docs: `npm run build:storybook`; clean archive installation: `npm run test:package`.
 
-Interpretation follows the title and objectives. The PDF's Django-authentication description conflicts with them and is not implemented. Codveda clarification and actual npm registry publication remain external requirements. The archive installation check is not a claim of publication.
+The component-library implementation follows the task title and objectives. The PDF's longer description conflicts with them, so a separate supplemental Django authentication demo is in django-auth-demo/. This covers both interpretations without claiming Codveda approved either one. Ask Codveda which version they expect before submission. The archive installation check is not a claim of npm publication; registry publication remains pending.
 
 ## Task 2: Performance Optimization
 

@@ -2,6 +2,8 @@
 
 All nine implementation areas exist. Current technical results are in evidence/VERIFICATION.md. A GPT-6.2 Astra review and subsequent GPT-6.1 Sol final review are recorded with their actual limits.
 
+Level 3 Task 1 now includes both PDF interpretations: the original React component library (title/objectives) and a separate Django auth demo (conflicting longer description). The Django demo uses built-in auth, CSRF-protected forms, sessions, password reset, and a protected page. It passed 8 tests and Django system checks locally; the employer's expected interpretation remains unconfirmed.
+
 Source repository: https://github.com/tejaspant09/codveda-frontend-lab-2026 (see evidence/github.json for the publication receipt).
 
 ## Next personal session

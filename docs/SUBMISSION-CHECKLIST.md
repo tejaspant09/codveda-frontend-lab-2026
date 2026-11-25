@@ -3,7 +3,7 @@
 ## Confirm with Codveda
 
 - [ ] AI-assisted work is permitted under the originality policy; retain their answer.
-- [ ] L3-1 component-library interpretation is confirmed.
+- [ ] Codveda confirms whether L3-1 expects the component library, the conflicting Django authentication app, or both. Both interpretations are included; neither is claimed employer-approved.
 - [ ] Shared projects and required repository/video format are accepted.
 - [ ] Correct submission portal and opening/closing dates are known.
 - [ ] Required personal details and internship identifier match the offer letter.
@@ -25,6 +25,7 @@
 ## Level 3 record
 
 - [ ] Storybook and component package source linked.
+- [ ] If required, include supplemental Django demo source and its local test record; it is not deployed on the static Sites preview.
 - [ ] npm account/scope verified and package actually published; record registry URL.
 - [ ] Clean registry installation tested after publication (local tarball smoke is separate).
 - [ ] Performance report/raw measurements included; baseline method disclosed.

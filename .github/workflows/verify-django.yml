@@ -1,0 +1,24 @@
+name: Verify Django auth interpretation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  django:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: level-3/django-auth-demo/requirements.txt
+      - name: Install Django
+        run: python -m pip install -r level-3/django-auth-demo/requirements.txt
+      - name: Check project
+        working-directory: level-3/django-auth-demo
+        run: python manage.py check
+      - name: Run authentication tests
+        working-directory: level-3/django-auth-demo
+        run: python manage.py test
